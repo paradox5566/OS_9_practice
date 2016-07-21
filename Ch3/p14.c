@@ -95,7 +95,7 @@ Accept and validate Input.
 	else // parents process
 	{
 		printf("Parents Process Excetution \n");
-		wait(NULL); // Either wait or not, when child process exits, the parents process does not wait cause child become zombie
+		wait(NULL); 
 		printf("Parents Process Complete \n");
 	}
 
