@@ -1,13 +1,14 @@
+/*
+ 
+This is the exercise of <OS Concepts 9/e> programming problems Q3.16. 
 
-/**
- * Time-of-day server listening to port 6013.
- *
- * Figure 3.21
- *
- * @author Silberschatz, Gagne, and Galvin. 
- * Operating System Concepts  - Ninth Edition
- * Copyright John Wiley & Sons - 2013.
- */
+Programmer: Chao-Chun(Chris) Cheng @ ECpE Iowa State University
+
+Date: 2016.07.21
+
+A quote of day, modified from Fig3.22
+
+*/
  
 import java.net.*;
 import java.io.*;

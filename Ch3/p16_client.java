@@ -1,11 +1,14 @@
-/**
- * Client program requesting current date from server.
- *
- * Figure 3.22
- *
- * @author Silberschatz, Gagne and Galvin
- * Operating System Concepts  - Eighth Edition
- */ 
+/*
+ 
+This is the exercise of <OS Concepts 9/e> programming problems Q3.16. 
+
+Programmer: Chao-Chun(Chris) Cheng @ ECpE Iowa State University
+
+Date: 2016.07.21
+
+A quote of day, modified from Fig3.22
+
+*/
 
 import java.net.*;
 import java.io.*;
