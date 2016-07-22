@@ -25,7 +25,7 @@ Modifed from Fig3.25
 #define READ_END	0
 #define WRITE_END	1
 
-int main(void)
+int main(int argc, char *agrv)
 {
 	char write_msg[BUFFER_SIZE] = "Hi There";
 	char read_msg[BUFFER_SIZE];
