@@ -21,7 +21,7 @@ const int pool_size = MAX_PID-MIN_PID+1;
 
 bool pid_pool[MAX_PID-MIN_PID+1]; // cannot use pool_size which causes "variably modified at file scope"
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	return 0;
 }

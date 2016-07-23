@@ -17,7 +17,7 @@ Hints: Using "#ps -al" in Ubuntu 14.04 instead of "ps -l" which illustrated in t
 #include <stdio.h>
 #include <unistd.h>
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	pid_t fpid; // stands for the return value (pid) of function fork()
 	int status; // store child process return value (it can be either explicitly return value or implicitly exit(value))

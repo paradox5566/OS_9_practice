@@ -23,7 +23,7 @@ checking, including ensuring that the source file exists.
 
 #define LINE_MAX 50
 #define BLOCK_SIZE 1024
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	char src_path[LINE_MAX], dest_path[LINE_MAX];
 	int src_fd = -1;

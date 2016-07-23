@@ -28,7 +28,7 @@ Collatz conjecture + Shared Memory
 #define MEM_SIZE 1024*1024
 #define LINE_MAX 1024
 
-int main(int argc, char *agrv)
+int main(int argc, char *argv[])
 {
 
 	pid_t fpid;

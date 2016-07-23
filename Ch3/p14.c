@@ -20,7 +20,7 @@ Collatz conjecture : n = n/2, if n is even, n = 3*n + 1, if n is odd.
 
 #define LINE_MAX 50
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	char input[LINE_MAX];
 	int index;
