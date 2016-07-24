@@ -22,7 +22,6 @@ Child process reads source files and parents process copies the content to the d
 #include <fcntl.h>
 #include <string.h>
 #include <errno.h>
-#include <string.h>
 
 #define BUFFER_SIZE 1024
 #define READ_END	0
